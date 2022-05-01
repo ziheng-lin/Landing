@@ -1,0 +1,27 @@
+@import url("http: //fonts.googleapis.com/css?family=Arial|Times");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+	font-family: Arial;
+	font-size: 18px;
+	margin: 0px;
+}
+h1, h2, h3 {
+	font-family: Times;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+}
+h2 {
+	text-align: center;
+}
+
+body > div.banner {
+	background-image: url(../images/backgound.jpeg);
+}
